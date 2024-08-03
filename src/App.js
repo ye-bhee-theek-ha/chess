@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import PlayArea from 'screens/PlayArea';
+import Home from 'screens/Home';
 
 function App() {
   return (
-    <div className="App">
-      <PlayArea/>
+    <div className="App h-screen w-screen">
+      <Home/>
     </div>
   );
 }
